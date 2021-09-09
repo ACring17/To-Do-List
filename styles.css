@@ -81,3 +81,7 @@ form button:hover {
 .trash-btn {
     background: #FF7708;
 }
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
