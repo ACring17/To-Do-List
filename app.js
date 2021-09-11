@@ -19,6 +19,8 @@ function addTodo(event) {
     newTodo.innerText = todoInput.value;
     newTodo.classList.add('todo-item');
     todoDiv.appendChild(newTodo);
+    //Add todo to Locsl Storage
+    saveLocalTodos(todoInput.value);
     //Check Mark Button
     const completedButton = document.createElement('button');
     completedButton.innerHTML = '<i class= "fas fa-check"></i>';
@@ -80,7 +82,7 @@ function filterTodo(e) {
 }
 
 
-function saveLocalTodo(todo) {
+function saveLocalTodos(todo) {
     //Check for saved todos
     let todos;
     if (localStorage.getItem('todos') === null) {
