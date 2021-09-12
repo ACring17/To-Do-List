@@ -11,6 +11,8 @@ body {
     min-height: 100vh;
 }
 
+/* Introduction */
+
 header {
     font-size: 1.5rem;
 }
@@ -22,6 +24,8 @@ form {
     justify-content: center;
     align-items: center;
 }
+
+/* Todo submition */
 
 form input,
 form button {
@@ -42,6 +46,8 @@ form button:hover {
     background-color: #157a6e;
     color: white;
 }
+
+/* The Todo Items*/
 
 .todo-container {
     display: flex;
@@ -86,6 +92,8 @@ form button:hover {
     padding: 0rem 0.5rem;
 }
 
+/* Todo actions */
+
 .fa-trash,
 .fa-check {
     pointer-events: none;
@@ -100,6 +108,8 @@ form button:hover {
     transform: translateY(8rem) rotateZ(20deg);
     opacity: 0;
 }
+
+/* Select Filter Stylings*/
 
 select {
     -webkit-appearance: none;
