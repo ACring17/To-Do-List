@@ -11,6 +11,8 @@ body {
     min-height: 100vh;
 }
 
+/* Intro Styling */
+
 header {
     font-size: 1.5rem;
 }
@@ -22,6 +24,8 @@ form {
     justify-content: center;
     align-items: center;
 }
+
+/* Form Styling */
 
 form input,
 form button {
@@ -42,6 +46,8 @@ form button:hover {
     background-color: #157a6e;
     color: white;
 }
+
+/*ToDo Styling */
 
 .todo-container {
     display: flex;
@@ -68,6 +74,8 @@ form button:hover {
 .todo li {
     flex: 1;
 }
+
+/* Completted and trash button*/
 
 .trash-btn,
 .complete-btn {
@@ -96,6 +104,8 @@ form button:hover {
     text-decoration: line-through;
     opacity: 0.5;
 }
+
+/* Animation and selecting */
 
 .fall {
     transform: translateY(8rem) rotateZ(20deg);
